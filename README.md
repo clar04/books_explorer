@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Books Explorer Library
 
-## Available Scripts
+## Short Description
 
-In the project directory, you can run:
+Books Explorer is a responsive web application built with ReactJS that allows users to browse and explore books using the Open Library API. The application provides a clean and intuitive user interface to view books by various subjects, search for specific titles, and see detailed information for each book.
 
-### `npm start`
+## 📚 Features
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  - **Homepage:** Displays a list of books fetched from the Open Library API.
+  - **Search & Filter:** Allows users to search for books by title and filter by various subjects.
+  - **Book Details:** Clicking on a book card reveals a detailed view with information such as the author, publication date, and cover image.
+  - **Responsive Design:** The application is fully responsive and provides a seamless user experience on both desktop and mobile devices.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+  - **Frontend:** ReactJS
+  - **State Management:** (Optional, but can be implemented with Context API or a similar library)
+  - **Styling:** Bootstrap 5 (or TailwindCSS, based on your choice)
+  - **API:** [Open Library API](https://openlibrary.org/developers/api)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 How to Run Locally
 
-### `npm run build`
+To run this project on your local machine, follow these steps:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.  **Clone the repository:**
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+    ```bash
+    git clone [your-github-repo-link]
+    cd books-explorer-library
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2.  **Install dependencies:**
 
-### `npm run eject`
+    ```bash
+    npm install
+    # or
+    yarn
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3.  **Start the development server:**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    The application will be available at `http://localhost:3000`.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 🌐 Deployment
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The project is deployed and can be viewed live at:
+🔗 [https://books-explorer-library.vercel.app/](https://books-explorer-library.vercel.app/)
