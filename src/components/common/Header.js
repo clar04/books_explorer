@@ -31,18 +31,18 @@ const Header = () => {
                         <Link
                             to="/"
                             className={`text-sm font-medium transition-colors duration-300 ${isActive('/')
-                                    ? 'text-tea-rose border-b-2 border-tea-rose pb-1'
-                                    : 'text-gray-300 hover:text-tea-rose'
+                                ? 'text-tea-rose border-b-2 border-tea-rose pb-1'
+                                : 'text-gray-300 hover:text-tea-rose'
                                 }`}
                         >
                             Home
                         </Link>
-                        <button className="text-sm font-medium text-gray-300 hover:text-tea-rose transition-colors duration-300">
+                        <Link to="/" className="text-sm font-medium text-gray-300 hover:text-tea-rose transition-colors duration-300">
                             Categories
-                        </button>
-                        <button className="text-sm font-medium text-gray-300 hover:text-tea-rose transition-colors duration-300">
+                        </Link>
+                        <Link to="/about" className="text-sm font-medium text-gray-300 hover:text-tea-rose transition-colors duration-300">
                             About
-                        </button>
+                        </Link>
                     </nav>
 
                     {/* Mobile menu button */}
@@ -77,18 +77,20 @@ const Header = () => {
                         >
                             Home
                         </Link>
-                        <button
+                        <Link
+                            to="/"
                             onClick={() => setIsMenuOpen(false)}
                             className="block text-sm font-medium text-gray-300 hover:text-tea-rose transition-colors duration-300 w-full text-left"
                         >
                             Categories
-                        </button>
-                        <button
+                        </Link>
+                        <Link
+                            to="/about"
                             onClick={() => setIsMenuOpen(false)}
                             className="block text-sm font-medium text-gray-300 hover:text-tea-rose transition-colors duration-300 w-full text-left"
                         >
                             About
-                        </button>
+                        </Link>
                     </nav>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -49,24 +50,24 @@ const Footer = () => {
                             <h4 className="font-semibold mb-4">Quick Links</h4>
                             <ul className="space-y-2">
                                 <li>
-                                    <a href="#" className="text-gray-300 hover:text-tea-rose transition-colors duration-300">
+                                    <Link to="/" className="text-gray-300 hover:text-tea-rose transition-colors duration-300">
                                         Browse Books
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-gray-300 hover:text-tea-rose transition-colors duration-300">
+                                    <Link to="/" className="text-gray-300 hover:text-tea-rose transition-colors duration-300">
                                         New Releases
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-gray-300 hover:text-tea-rose transition-colors duration-300">
+                                    <Link to="/" className="text-gray-300 hover:text-tea-rose transition-colors duration-300">
                                         Best Sellers
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <a href="#" className="text-gray-300 hover:text-tea-rose transition-colors duration-300">
+                                    <Link to="/" className="text-gray-300 hover:text-tea-rose transition-colors duration-300">
                                         Categories
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
